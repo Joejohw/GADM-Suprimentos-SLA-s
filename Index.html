@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de Login</title>
+    <script src="/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+
+<h2>Gestão de Fornecedores</h2>
+
+<form id="loginForm">
+    <label for="username">Nome de Usuário:</label>
+    <input type="text" id="username" required><br><br>
+
+    <label for="password"> Senha: </label>
+    <input type="password" id="password" required><br><br>
+
+    <input type="button" value="Entrar" onclick="validateLogin()">
+</form>
+
+<p id="loginMessage"></p>
+
+</body>
+</html>
